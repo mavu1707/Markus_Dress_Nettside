@@ -3,10 +3,24 @@
 
 }
 
+body{
+  margin: 0;
+}
+
 /*Mobile first CSS*/
 @media only screen and (max-width: 500px){
   h1{
     color: aqua;
+  }
+
+  .bottom-bar{
+    background-color: bisque;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav li{
+    list-style: none;
   }
   
 }
