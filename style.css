@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap');
 /*Custom Properties*/
 :root{
 
@@ -5,10 +6,11 @@
 
 body{
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*Mobile first CSS*/
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
   h1{
     color: aliceblue;
     background-color: blueviolet;
@@ -18,8 +20,6 @@ body{
     margin: 0 auto;
   }
 
-  
-
   .bottom-bar{
     background-color: blueviolet;
     overflow: hidden;
@@ -27,6 +27,8 @@ body{
     bottom: 0;
     width: 100%;
     text-align: center;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
   }
 
   .bottom-bar ul{
@@ -40,12 +42,8 @@ body{
   .bottom-bar a{
     text-decoration: none;
     color: aliceblue;
-    font-size: 17px;
+    font-size: 16px;
     margin: 0 1rem;
-  }
-
-  nav li{
-    list-style: none;
   }
 
 }
