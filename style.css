@@ -8,19 +8,44 @@ body{
 }
 
 /*Mobile first CSS*/
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 600px){
   h1{
-    color: aqua;
+    color: aliceblue;
+    background-color: blueviolet;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: 0 auto;
   }
 
+  
+
   .bottom-bar{
-    background-color: bisque;
-    flex-direction: column;
-    align-items: center;
+    background-color: blueviolet;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .bottom-bar ul{
+    padding: 0;
+  }
+
+  .bottom-bar li{
+    display: inline-block;
+  }
+
+  .bottom-bar a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 17px;
+    margin: 0 1rem;
   }
 
   nav li{
     list-style: none;
   }
-  
+
 }
