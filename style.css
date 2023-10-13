@@ -56,6 +56,8 @@ body{
     align-items: center;
   }
   */
+
+  /*Test*/
   .full-screen-menu {
     display: flex;
     flex-direction: column;
@@ -65,12 +67,12 @@ body{
     width: 100%;
     height: 100;
     background-color: rgb(25, 25, 26);
-    justify-content: flex-end; /* Align content at the bottom */
+    justify-content: flex-end;
     z-index: 1;
     overflow: hidden;
-    transition: height 0.3s ease-in-out; /* Transition height with ease-in-out effect */
+    transition: height 0.3s ease-in-out;
   }
-
+  /*Test*/
   .full-screen-menu.active{
     height: 10vh;
   }
