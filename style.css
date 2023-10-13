@@ -40,40 +40,46 @@ body{
     font-size: 30px;
   }
 
-  .hamburger-menu {
-    display: inline-block;
-    align-items: center; 
-    cursor: pointer;
-    margin: 0 1rem;
-    transition: 0.3s; 
-  }
-  
   .bar {
-    width: 30px;
+    width: 2rem;
     height: 3px;
     background-color: aliceblue;
-    margin: 6px 0;
-    transition: 0.4s;
+    margin: 0.4rem 0;
+    transition: 0.3s;
   }
-  
+  /*
   .full-screen-menu {
-    display: none;
-    bottom: 0;
-    left: 0;
-    width: 100%;
     height: 100vh;
     background-color: rgb(25, 25, 26);
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  */
+  .full-screen-menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100;
+    background-color: rgb(25, 25, 26);
+    justify-content: flex-end; /* Align content at the bottom */
     z-index: 1;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out; /* Transition height with ease-in-out effect */
+  }
+
+  .full-screen-menu.active{
+    height: 10vh;
   }
   
   .full-screen-menu a {
     text-decoration: none;
     color: aliceblue;
-    font-size: 24px;
-    margin: 20px 0;
+    font-size: 2rem;
+    margin: 2rem 0;
   }
 
   .hamburger-menu.active .bar:nth-child(1) {
