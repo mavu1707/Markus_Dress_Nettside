@@ -4,3 +4,5 @@ Everything will be in english for easier use of names of elemnts and styles, but
 This webpage will be an improvement for this website; https://christianiaskredder.no/katalog/dress-og-vest
 I'm going to use the website as a mock up as well as my refferance.
 This is going to be a mobile first website.
+
+All images are downloaded from unsplash.
